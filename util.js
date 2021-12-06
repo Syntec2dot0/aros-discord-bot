@@ -1,5 +1,3 @@
-import { assertReturnOfBuilder } from "@discordjs/builders/dist/interactions/slashCommands/Assertions";
-
 export const rolladiefunc = function (faces, num) {
   let res = Math.floor(Math.random() * faces + 1) + '';
 
