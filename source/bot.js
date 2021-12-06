@@ -16,18 +16,18 @@ import onready from '../events/onReady.js';
 import oninteraction from '../events/onInteraction.js';
 
 /* Füllt myIntents mit einer Liste and Intents (Sagt der Discord API welche Events der Bot 
-    hören kann.):
+		hören kann.):
 Server: Mitgliederstatus, Nachrichten, Mitglieder, Server
 Privat: Privatnachrichten
 */
 
 const myIntents = new Intents();
 myIntents.add(
-    Intents.FLAGS.GUILD_PRESENCES,
-    Intents.FLAGS.GUILD_MEMBERS,
-    Intents.FLAGS.GUILD_MESSAGES,
-    Intents.FLAGS.DIRECT_MESSAGES,
-    Intents.FLAGS.GUILDS);
+	Intents.FLAGS.GUILD_PRESENCES,
+	Intents.FLAGS.GUILD_MEMBERS,
+	Intents.FLAGS.GUILD_MESSAGES,
+	Intents.FLAGS.DIRECT_MESSAGES,
+	Intents.FLAGS.GUILDS);
 
 /* Erstellt ein Client Objekt mit den Intents. client ist das Objekt des bots. */
 const client = new Client({ intents: myIntents });
@@ -42,11 +42,11 @@ client.commands.set(button.data.name, button);
 client.commands.set(makeCharacter.data.name, makeCharacter);
 
 client.once(onready.name, (...args) => {
-    onready.execute(...args);
+	onready.execute(...args);
 });
 
 client.on(oninteraction.name, (...args) => {
-    oninteraction.execute(...args);
+	oninteraction.execute(...args);
 });
 
 
