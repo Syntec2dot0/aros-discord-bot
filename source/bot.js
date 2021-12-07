@@ -10,6 +10,7 @@ import ping from '../commands/ping.js';
 import rolladie from '../commands/rolladie.js';
 import button from '../commands/button.js';
 import makeCharacter from '../commands/makeCharacter.js';
+import makeCharacterInThread from '../commands/makeCharacterInThread.js';
 
 /* import all the events */
 import onready from '../events/onReady.js';
@@ -40,6 +41,7 @@ client.commands.set(ping.data.name, ping);
 client.commands.set(rolladie.data.name, rolladie);
 client.commands.set(button.data.name, button);
 client.commands.set(makeCharacter.data.name, makeCharacter);
+client.commands.set(makeCharacterInThread.data.name, makeCharacterInThread);
 
 client.once(onready.name, (...args) => {
 	onready.execute(...args);
