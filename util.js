@@ -1,11 +1,15 @@
-export const rolladiefunc = function (faces, num) {
-  let res = Math.floor(Math.random() * faces + 1) + '';
+export const rolladiefunc = function (faces, num, formatIsString = true) {
 
-  if (num <= 1) return res;
-
-  for (let i = 1; i < num; i++) {
-    res += ' + ' + Math.floor(Math.random() * faces + 1);
+  for (let i = 0; i < num; i++) {
+    res[i] = Math.floor(Math.random() * faces + 1);
   }
+  if (formatIsString) {
+    let resString;
+    res.forEach(i => resString += i + ' + ');
+    resString.slice(0, -3);
+    return resString;
+  }
+  console.log(res[0]);
   return res;
 };
 

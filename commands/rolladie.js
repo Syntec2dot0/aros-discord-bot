@@ -35,8 +35,8 @@ let command = {
 			await interaction.deferReply();
 
 			/* Building a Response string with the specified number of die Results: */
-			let res = rolladiefunc(faces, num);
-			await interaction.editReply(`Rolling ${num} d${faces} : \n ${res}`);
+			let res = rolladiefunc(faces, num, false);
+			await interaction.editReply(`Rolling ${num} d${faces} : \n ${res[0]}`);
 		} catch {
 			console.error(error);
 			await interaction.reply({ content: 'There was an error while executing this command!', ephemeral: true });
