@@ -1,6 +1,5 @@
 import { SlashCommandBuilder } from '@discordjs/builders';
-import '../util.js';
-import { randomInclusive, rolladiefunc } from '../util.js';
+import { randomInclusive } from '../util.js';
 
 let command = {
 	data: new SlashCommandBuilder()
@@ -46,7 +45,7 @@ let command = {
 
 
 			for (let i = 0; i < 3; i++) {
-				possibleAttributes.push(parseInt(rolladiefunc(6, 1)));
+				possibleAttributes.push(parseInt(randomInclusive(1, 6)));
 			}
 
 			console.log(possibleAttributes);

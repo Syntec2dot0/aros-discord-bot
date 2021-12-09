@@ -1,5 +1,5 @@
 import { SlashCommandBuilder } from '@discordjs/builders';
-import { rolladiefunc, gearfunc, indent } from '../util.js';
+import { gearfunc, indent } from '../util.js';
 
 let command = {
 	data: new SlashCommandBuilder()

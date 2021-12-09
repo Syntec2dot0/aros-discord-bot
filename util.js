@@ -1,14 +1,3 @@
-export const rolladiefunc = function (faces, num) {
-  let res = Math.floor(Math.random() * faces + 1) + '';
-
-  if (num <= 1) return res;
-
-  for (let i = 1; i < num; i++) {
-    res += ' + ' + Math.floor(Math.random() * faces + 1);
-  }
-  return res;
-};
-
 export function indent(str, numOfIndents, opt_spacesPerIndent) {
   str = str.replace(/^(?=.)/gm, new Array(numOfIndents + 1).join('\t'));
   numOfIndents = new Array(opt_spacesPerIndent + 1 || 0).join(' '); // re-use
@@ -17,7 +6,11 @@ export function indent(str, numOfIndents, opt_spacesPerIndent) {
       return tabs.replace(/./g, numOfIndents);
     }) :
     str;
-};
+}
+
+export function randomInclusive(min, max) {
+  return Math.floor(Math.random() * ((max + 1) - min) + min)
+}
 
 export const gearfunc = {
   getWeapons: (num) => {

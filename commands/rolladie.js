@@ -1,5 +1,5 @@
 import { SlashCommandBuilder } from '@discordjs/builders';
-import { rolladiefunc } from '../util.js';
+import { } from '../util.js';
 
 /* 
 Builds a dice rolling command 
