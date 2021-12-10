@@ -1,62 +1,62 @@
 {
-  "rope":{
+  "rope": {
     "nameGer": "Seil (15m)"
   },
-  "pulleys":{
+  "pulleys": {
     "nameGer": "Seilzug"
   },
-  "chain":{
+  "chain": {
     "nameGer": "Kette (3m)"
   },
-  "chalk":{
+  "chalk": {
     "nameGer": "Kreide (x10)"
   },
-  "crowbar":{
+  "crowbar": {
     "nameGer": "Brecheisen"
   },
-  "torch":{
+  "torch": {
     "nameGer": "Fackel (x2)"
   },
-  "grapplingHook":{
+  "grapplingHook": {
     "nameGer": "Greifharken"
   },
-  "hammer":{
+  "hammer": {
     "nameGer": "Hammer"
   },
-  "padlock":{
+  "padlock": {
     "nameGer": "Vorhängeschloss"
   },
-  "manacles":{
+  "manacles": {
     "nameGer": "Fußfesseln"
   },
-  "mirror":{
+  "mirror": {
     "nameGer": "Spiegel"
   },
-  "pole":{
+  "pole": {
     "nameGer": "Holzstange (3m)"
   },
-  "sack":{
+  "sack": {
     "nameGer": "Sack"
   },
-  "machete":{
+  "machete": {
     "nameGer": "Machete"
   },
-  "spikes":{
+  "spikes": {
     "nameGer": "Eisenstacheln (x5)"
   },
-  "randomScroll":{
+  "randomScroll": {
     "nameGer": "zufällige Spruchrolle"
   },
-  "lanternAndBlubberOil":{
+  "lanternAndBlubberOil": {
     "nameGer": "Laterne und Öl"
   },
-  "glowingAlgaeGlobe":{
+  "glowingAlgaeGlobe": {
     "nameGer": "fluoreszierende Algen"
   },
-  "randomSlug":{
+  "randomSlug": {
     "nameGer": "zufällige Schnecke"
   },
-  "randomSpellpearl":{
+  "randomSpellpearl": {
     "nameGer": "zufällige Spruchperle"
   }
 }

@@ -1,62 +1,62 @@
 {
-  "torch":{
+  "torch": {
     "nameGer": "Fackel (x2)"
   },
-  "sponge":{
+  "sponge": {
     "nameGer": "Schwam"
   },
-  "lens":{
+  "lens": {
     "nameGer": "Linse"
   },
-  "perfume":{
+  "perfume": {
     "nameGer": "Parfüm"
   },
-  "horn":{
+  "horn": {
     "nameGer": "Horn"
   },
-  "bottle":{
+  "bottle": {
     "nameGer": "Flasche"
   },
-  "soap":{
+  "soap": {
     "nameGer": "Seife"
   },
-  "spyglass":{
+  "spyglass": {
     "nameGer": "Fernglas"
   },
-  "tarPot":{
+  "tarPot": {
     "nameGer": "Teertopf"
   },
-  "twine":{
+  "twine": {
     "nameGer": "Zwirn"
   },
-  "fakeJewels":{
+  "fakeJewels": {
     "nameGer": "falsche Edelsteine"
   },
-  "cardDeck":{
+  "cardDeck": {
     "nameGer": "Kartendeck"
   },
-  "diceSet":{
+  "diceSet": {
     "nameGer": "Würfelset"
   },
-  "facePaint":{
+  "facePaint": {
     "nameGer": "Gesichtsfarbe"
   },
-  "whistle":{
+  "whistle": {
     "nameGer": "Pfeife"
   },
-  "instrument":{
+  "instrument": {
     "nameGer": "Instrument"
   },
-  "quillAndInk":{
+  "quillAndInk": {
     "nameGer": "Feder und Tinte"
   },
-  "smallBell":{
+  "smallBell": {
     "nameGer": "kleine Glocke"
   },
-  "airbladder":{
+  "airbladder": {
     "nameGer": "Schwimmblase"
   },
-  "randomRangedWeapon":{
+  "randomRangedWeapon": {
     "nameGer": "zufällige Fernkampfwaffe"
   }
 }
