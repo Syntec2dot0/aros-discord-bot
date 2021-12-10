@@ -11,19 +11,19 @@ const helmetsAndShieldsTable = JSON.parse(await readFile(new URL('../data/helmet
 
 
 export function getRandomGear1() {
-  return gear1Table[randomInclusive(1, 20)];
+  return gear1Table[randomInclusive(0, 19)];
 }
 
 export function getRandomGear2() {
-  return gear2Table[randomInclusive(1, 20)];
+  return gear2Table[randomInclusive(0, 19)];
 }
 
 export function getRandomGearDungeon() {
-  return gearDungeonTable[randomInclusive(1, 20)];
+  return gearDungeonTable[randomInclusive(0, 19)];
 }
 
 export function getRandomMeleeWeapon() {
-  switch (radomInclusive(1, 20)) {
+  switch (randomInclusive(1, 20)) {
     case 1:
     case 2:
     case 3:
