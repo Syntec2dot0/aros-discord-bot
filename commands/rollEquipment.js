@@ -1,5 +1,6 @@
 import { SlashCommandBuilder } from '@discordjs/builders';
 import * as randomTables from '../services/randomTables.js';
+import { MessageEmbed } from 'discord.js'
 
 let command = {
 	data: new SlashCommandBuilder()
