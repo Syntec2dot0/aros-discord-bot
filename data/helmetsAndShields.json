@@ -1,24 +1,24 @@
-[
-  {
+{
+  "noneOrHat": {
     "nameGer": "keine Helm oder Hut",
     "defenseBonus": 0
   },
-  {
+  "helmet": {
     "nameGer": "Helm",
     "defenseBonus": 1,
     "slots": 1,
     "quality": 1
   },
-  {
+  "shield": {
     "nameGer": "Schild",
     "defenseBonus": 1,
     "slots": 1,
     "quality": 1
   },
-  {
+  "helmetAndShield": {
     "nameGer": "Helm und Schild",
     "defenseBonus": 2,
     "slots": 2,
     "quality": 1
   }
-]
+}

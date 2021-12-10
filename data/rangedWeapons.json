@@ -1,5 +1,5 @@
-[
-  {
+{
+  "sling": {
     "nameGer": "Schleuder",
     "damageDieSize": 4,
     "ammoGer": "/",
@@ -7,7 +7,7 @@
     "hand": 1,
     "quality": 2
   },
-  {
+  "bow": {
     "nameGer": "Bogen",
     "damageDieSize": 6,
     "ammoGer": "Pfeile",
@@ -15,7 +15,7 @@
     "hand": 2,
     "quality": 3
   },
-  {
+  "crossbow": {
     "nameGer": "Armbrust",
     "damageDieSize": 8,
     "ammoGer": "Bolzen",
@@ -23,4 +23,4 @@
     "hand": 2,
     "quality": 3
   }
-]
+}

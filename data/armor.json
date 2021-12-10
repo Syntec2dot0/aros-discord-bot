@@ -1,24 +1,24 @@
-[
-  {
+{
+  "noArmor": {
     "nameGer": "keine Rüstung",
     "defense": 11
   },
-  {
+  "canvasTunic": {
     "nameGer": "Leinen",
     "defense": 12,
     "slots": 1,
     "quality": 3
   },
-  {
+  "sealLeather": {
     "nameGer": "Robbenleder",
     "defense": 13,
     "slots": 2,
     "quality": 4
   },
-  {
+  "ironScaleMail": {
     "nameGer": "Kettenhemd",
     "defense": 11,
     "slots": 1,
     "quality": 3
   }
-]
+}

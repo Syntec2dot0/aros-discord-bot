@@ -1,5 +1,5 @@
-[
-  {
+{
+  "dagger": {
     "nameGer": "Dolch",
     "damageDieSize": 4,
     "damageTypeEng": "slash",
@@ -7,7 +7,7 @@
     "hand": 1,
     "quality": 3
   },
-  {
+  "cudgel": {
     "nameGer": "Keule",
     "damageDieSize": 6,
     "damageTypeEng": "bludgeon",
@@ -15,7 +15,7 @@
     "hand": 1,
     "quality": 3
   },
-  {
+  "sickle": {
     "nameGer": "Sichel",
     "damageDieSize": 6,
     "damageTypeEng": "slash",
@@ -23,7 +23,7 @@
     "hand": 1,
     "quality": 3
   },
-  {
+  "mace": {
     "nameGer": "Streitkolben",
     "damageDieSize": 8,
     "damageTypeEng": "bludgeon",
@@ -31,7 +31,7 @@
     "hand": 1,
     "quality": 3
   },
-  {
+  "spear": {
     "nameGer": "Speer",
     "damageDieSize": 8,
     "damageTypeEng": "pierce",
@@ -39,7 +39,7 @@
     "hand": 1,
     "quality": 3
   },
-  {
+  "sword": {
     "nameGer": "Schwert",
     "damageDieSize": 8,
     "damageTypeEng": "slash",
@@ -47,7 +47,7 @@
     "hand": 1,
     "quality": 3
   },
-  {
+  "eku": {
     "nameGer": "Eku",
     "damageDieSize": 8,
     "damageTypeEng": [
@@ -58,7 +58,7 @@
     "hand": 2,
     "quality": 3
   },
-  {
+  "hammer": {
     "nameGer": "Hammer",
     "damageDieSize": 10,
     "damageTypeEng": "bludgeon",
@@ -66,7 +66,7 @@
     "hand": 2,
     "quality": 3
   },
-  {
+  "harpoon": {
     "nameGer": "Harpune",
     "damageDieSize": 10,
     "damageTypeEng": "pierce",
@@ -74,7 +74,7 @@
     "hand": 2,
     "quality": 3
   },
-  {
+  "longsword": {
     "nameGer": "Langschwert",
     "damageDieSize": 10,
     "damageTypeEng": "slash",
@@ -82,4 +82,4 @@
     "hand": 2,
     "quality": 3
   }
-]
+}
