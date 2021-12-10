@@ -1,0 +1,24 @@
+[
+  {
+    "nameGer": "keine Helm oder Hut",
+    "defenseBonus": 0
+  },
+  {
+    "nameGer": "Helm",
+    "defenseBonus": 1,
+    "slots": 1,
+    "quality": 1
+  },
+  {
+    "nameGer": "Schild",
+    "defenseBonus": 1,
+    "slots": 1,
+    "quality": 1
+  },
+  {
+    "nameGer": "Helm und Schild",
+    "defenseBonus": 2,
+    "slots": 2,
+    "quality": 1
+  }
+]

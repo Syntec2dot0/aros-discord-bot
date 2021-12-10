@@ -1,0 +1,24 @@
+[
+  {
+    "nameGer": "keine Rüstung",
+    "defense": 11
+  },
+  {
+    "nameGer": "Leinen",
+    "defense": 12,
+    "slots": 1,
+    "quality": 3
+  },
+  {
+    "nameGer": "Robbenleder",
+    "defense": 13,
+    "slots": 2,
+    "quality": 4
+  },
+  {
+    "nameGer": "Kettenhemd",
+    "defense": 11,
+    "slots": 1,
+    "quality": 3
+  }
+]

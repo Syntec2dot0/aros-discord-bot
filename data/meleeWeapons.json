@@ -1,0 +1,85 @@
+[
+  {
+    "nameGer": "Dolch",
+    "damageDieSize": 4,
+    "damageTypeEng": "slash",
+    "slot": 1,
+    "hand": 1,
+    "qualität": 3
+  },
+  {
+    "nameGer": "Keule",
+    "damageDieSize": 6,
+    "damageTypeEng": "bludgeon",
+    "slot": 1,
+    "hand": 1,
+    "qualität": 3
+  },
+  {
+    "nameGer": "Sichel",
+    "damageDieSize": 6,
+    "damageTypeEng": "slash",
+    "slot": 1,
+    "hand": 1,
+    "qualität": 3
+  },
+  {
+    "nameGer": "Streitkolben",
+    "damageDieSize": 8,
+    "damageTypeEng": "bludgeon",
+    "slot": 2,
+    "hand": 1,
+    "qualität": 3
+  },
+  {
+    "nameGer": "Speer",
+    "damageDieSize": 8,
+    "damageTypeEng": "pierce",
+    "slot": 2,
+    "hand": 1,
+    "qualität": 3
+  },
+  {
+    "nameGer": "Schwert",
+    "damageDieSize": 8,
+    "damageTypeEng": "slash",
+    "slot": 2,
+    "hand": 1,
+    "qualität": 3
+  },
+  {
+    "nameGer": "Eku",
+    "damageDieSize": 8,
+    "damageTypeEng": [
+      "slash",
+      "bludgeon"
+    ],
+    "slot": 3,
+    "hand": 2,
+    "qualität": 3
+  },
+  {
+    "nameGer": "Hammer",
+    "damageDieSize": 10,
+    "damageTypeEng": "bludgeon",
+    "slot": 3,
+    "hand": 2,
+    "qualität": 3
+  },
+  {
+    "nameGer": "Harpune",
+    "damageDieSize": 10,
+    "damageTypeEng": "pierce",
+    "slot": 3,
+    "hand": 2,
+    "qualität": 3
+  },
+  {
+    "nameGer": "Langschwert",
+    "damageDieSize": 10,
+    "damageTypeEng": "slash",
+    "slot": 2,
+    "hand": 2,
+    "qualität": 3
+  }
+]
