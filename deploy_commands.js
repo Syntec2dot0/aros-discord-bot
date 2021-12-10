@@ -7,7 +7,7 @@ import dotenv from 'dotenv';
 
 /* Import all the commands */
 import ping from './commands/ping.js';
-import rolladie from './commands/rolladie.js';
+import rolladie from './commands/rollADie.js';
 import rollAttributes from './commands/rollAttributes.js';
 import rollEquipment from './commands/rollEquipment.js';
 

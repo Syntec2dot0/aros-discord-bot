@@ -41,7 +41,7 @@ let command = {
 				res += " + " + randomInclusive(1, faces);
 			}
 
-			await interaction.editReply(`Rolling ${num} d${faces} : \n ${res}`);
+			await interaction.editReply(`Rolling ${num}D${faces} : \n ${res}`);
 		} catch {
 			console.error(error);
 			await interaction.reply({ content: 'There was an error while executing this command!', ephemeral: true });
