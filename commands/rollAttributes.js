@@ -1,5 +1,6 @@
 import { SlashCommandBuilder } from '@discordjs/builders';
 import { randomInclusive } from '../util.js';
+import { MessageEmbed } from 'discord.js';
 
 let command = {
 	data: new SlashCommandBuilder()
@@ -61,15 +62,19 @@ let command = {
 				attribute.value = possibleAttributes[2];
 			}
 		})
-		const replayMessage = "Attribute für " + interaction.member.displayName + ":\n"
-			+ "`" + attributes[0].value + "\tSTR\t" + (attributes[0].value + 10) + "`\n"
+		const replayMessage = "`" + attributes[0].value + "\tSTR\t" + (attributes[0].value + 10) + "`\n"
 			+ "`" + attributes[1].value + "\tDEX\t" + (attributes[1].value + 10) + "`\n"
 			+ "`" + attributes[2].value + "\tCON\t" + (attributes[2].value + 10) + "`\n"
 			+ "`" + attributes[3].value + "\tINT\t" + (attributes[3].value + 10) + "`\n"
 			+ "`" + attributes[4].value + "\tWIS\t" + (attributes[4].value + 10) + "`\n"
 			+ "`" + attributes[5].value + "\tCHA\t" + (attributes[5].value + 10) + "`\n"
 
-		await interaction.reply(replayMessage)
+		const exampleEmbed = new MessageEmbed()
+			.setColor('#5C8C79')
+			.setTitle('Attribute')
+			.setDescription(replayMessage)
+
+		await interaction.reply({ embeds: [exampleEmbed] })
 	},
 };
 

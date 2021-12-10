@@ -1,4 +1,5 @@
 import { SlashCommandBuilder } from '@discordjs/builders';
+import { MessageEmbed } from 'discord.js';
 import { randomInclusive } from '../util.js';
 import * as randomTables from '../services/randomTables.js';
 
@@ -15,8 +16,7 @@ let command = {
 		const gear2 = randomTables.getRandomGear2();
 		const gearDungeon = randomTables.getRandomGearDungeon();
 
-		const replay = `Ausrüstung für ${interaction.member.displayName}:\n`
-			+ `\`${weapon.nameGer} (Schaden: 1D${weapon.damageDieSize}, Slots: ${weapon.slots}, Hände: ${weapon.hand})\`\n`
+		const replay = `\`${weapon.nameGer} (Schaden: 1D${weapon.damageDieSize}, Slots: ${weapon.slots}, Hände: ${weapon.hand})\`\n`
 			+ `\`${armor.nameGer} (Verteidigung: ${armor.defense}${armor.slots ? `, Slots: ${armor.slots}, Qualität: ${armor.quality}` : ``})\`\n`
 			+ `\`${helmetAndShield.nameGer} (Verteidigung: +${helmetAndShield.defenseBonus}${helmetAndShield.slots ? `, Slots: ${helmetAndShield.slots}, Qualität: ${helmetAndShield.quality}` : ``})\`\n`
 			+ `\`${gear1.nameGer}\`\n`
@@ -26,7 +26,12 @@ let command = {
 		//+ "`" + randomTables.getRandomGear2().nameGer + "`\n"
 		//+ "`" + randomTables.getRandomGearDungeon().nameGer + "`\n"
 
-		await interaction.reply(replay)
+		const exampleEmbed = new MessageEmbed()
+			.setColor('#5C8C79')
+			.setTitle('Ausrüstung')
+			.setDescription(replay)
+
+		await interaction.reply({ embeds: [exampleEmbed] })
 	},
 };
 
