@@ -1,62 +1,62 @@
-[
-  {
+{
+  "torch":{
     "nameGer": "Fackel (x2)"
   },
-  {
+  "bearTrap":{
     "nameGer": "Bärenfalle"
   },
-  {
+  "shovel":{
     "nameGer": "Schaufel"
   },
-  {
+  "bellows":{
     "nameGer": "Blasebalg"
   },
-  {
+  "grease":{
     "nameGer": "Schmierfett"
   },
-  {
+  "saw":{
     "nameGer": "Säge"
   },
-  {
+  "bucket":{
     "nameGer": "Eimer"
   },
-  {
+  "caltrops":{
     "nameGer": "Caltrops"
   },
-  {
+  "chisel":{
     "nameGer": "Meißel"
   },
-  {
+  "drill":{
     "nameGer": "Bohrer"
   },
-  {
+  "fishingRod":{
     "nameGer": "Angel"
   },
-  {
+  "marbles":{
     "nameGer": "Murmeln"
   },
-  {
+  "glue":{
     "nameGer": "Kleber"
   },
-  {
+  "pick":{
     "nameGer": "Dietrich"
   },
-  {
+  "hourglass":{
     "nameGer": "Sanduhr"
   },
-  {
+  "net":{
     "nameGer": "Netz"
   },
-  {
+  "tongs":{
     "nameGer": "Zange"
   },
-  {
+  "lockpick":{
     "nameGer": "Dietrich"
   },
-  {
+  "metalFile":{
     "nameGer": "Metalfeile"
   },
-  {
+  "randomMeleeWeapon":{
     "nameGer": "zufällige Nahrkampfwaffe"
   }
-]
+}

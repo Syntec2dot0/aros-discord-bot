@@ -1,62 +1,62 @@
-[
-  {
+{
+  "torch":{
     "nameGer": "Fackel (x2)"
   },
-  {
+  "sponge":{
     "nameGer": "Schwam"
   },
-  {
+  "lens":{
     "nameGer": "Linse"
   },
-  {
+  "perfume":{
     "nameGer": "Parfüm"
   },
-  {
+  "horn":{
     "nameGer": "Horn"
   },
-  {
+  "bottle":{
     "nameGer": "Flasche"
   },
-  {
+  "soap":{
     "nameGer": "Seife"
   },
-  {
+  "spyglass":{
     "nameGer": "Fernglas"
   },
-  {
+  "tarPot":{
     "nameGer": "Teertopf"
   },
-  {
+  "twine":{
     "nameGer": "Zwirn"
   },
-  {
+  "fakeJewels":{
     "nameGer": "falsche Edelsteine"
   },
-  {
+  "cardDeck":{
     "nameGer": "Kartendeck"
   },
-  {
+  "diceSet":{
     "nameGer": "Würfelset"
   },
-  {
-    "nameGer": "Gesichtsfabe"
+  "facePaint":{
+    "nameGer": "Gesichtsfarbe"
   },
-  {
+  "whistle":{
     "nameGer": "Pfeife"
   },
-  {
+  "instrument":{
     "nameGer": "Instrument"
   },
-  {
+  "quillAndInk":{
     "nameGer": "Feder und Tinte"
   },
-  {
+  "smallBell":{
     "nameGer": "kleine Glocke"
   },
-  {
+  "airbladder":{
     "nameGer": "Schwimmblase"
   },
-  {
+  "randomRangedWeapon":{
     "nameGer": "zufällige Fernkampfwaffe"
   }
-]
+}
