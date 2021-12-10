@@ -19,6 +19,9 @@ let command = {
 		const replay = `\`${equipmentToString(weapon)}\`\n`
 			+ `\`${equipmentToString(armor)}\`\n`
 			+ `\`${equipmentToString(helmetAndShield)}\`\n`
+			+ `\`Fackel\`\n`
+			+ `\`Ration\`\n`
+			+ `\`Ration\`\n`
 			+ `\`${equipmentToString(gear1)}\`\n`
 			+ `\`${equipmentToString(gear2)}\`\n`
 			+ `\`${equipmentToString(gearDungeon)}\`\n`
