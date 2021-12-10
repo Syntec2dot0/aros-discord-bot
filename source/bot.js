@@ -8,7 +8,6 @@ import { Client, Intents, Collection } from 'discord.js';
 /* Import all the commands */
 import ping from '../commands/ping.js';
 import rolladie from '../commands/rolladie.js';
-import button from '../commands/button.js';
 import rollAttributes from '../commands/rollAttributes.js';
 import rollEquipment from '../commands/rollEquipment.js';
 
@@ -39,7 +38,6 @@ client.commands = new Collection();
 /* Füllt die collection (eine spezielle Map) mit den  commandfiles*/
 client.commands.set(ping.data.name, ping);
 client.commands.set(rolladie.data.name, rolladie);
-client.commands.set(button.data.name, button);
 client.commands.set(rollAttributes.data.name, rollAttributes);
 client.commands.set(rollEquipment.data.name, rollEquipment);
 
