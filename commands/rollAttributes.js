@@ -49,8 +49,6 @@ let command = {
 				possibleAttributes.push(parseInt(randomInclusive(1, 6)));
 			}
 
-			console.log(possibleAttributes);
-
 			possibleAttributes.sort((a, b) => a - b);
 
 			let val = interaction.options.getInteger(attribute.name);
