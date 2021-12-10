@@ -11,7 +11,7 @@ Both are constructed as callback functions, that change an option arg.
 
 let command = {
 	data: new SlashCommandBuilder()
-		.setName('rolladie')
+		.setName('r')
 		.setDescription('Rolls the specified die.')
 		.addIntegerOption(option =>
 			option
