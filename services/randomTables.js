@@ -58,7 +58,7 @@ export function getRandomMeleeWeapon() {
 }
 
 export function getRandomRangedWeapons() {
-  switch (radomInclusive(1, 20)) {
+  switch (randomInclusive(1, 20)) {
     case 1:
     case 2:
     case 3:
@@ -86,7 +86,7 @@ export function getRandomRangedWeapons() {
 }
 
 export function getRandomArmor() {
-  switch (radomInclusive(1, 20)) {
+  switch (randomInclusive(1, 20)) {
     case 1:
     case 2:
     case 3:
@@ -115,7 +115,7 @@ export function getRandomArmor() {
 }
 
 export function getRandomHelmetAndShield() {
-  switch (radomInclusive(1, 20)) {
+  switch (randomInclusive(1, 20)) {
     case 1:
     case 2:
     case 3:
