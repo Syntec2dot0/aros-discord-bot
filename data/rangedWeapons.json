@@ -3,24 +3,24 @@
     "nameGer": "Schleuder",
     "damageDieSize": 4,
     "ammoGer": "/",
-    "slot": 1,
+    "slots": 1,
     "hand": 1,
-    "qualität": 2
+    "quality": 2
   },
   {
     "nameGer": "Bogen",
     "damageDieSize": 6,
     "ammoGer": "Pfeile",
-    "slot": 2,
+    "slots": 2,
     "hand": 2,
-    "qualität": 3
+    "quality": 3
   },
   {
     "nameGer": "Armbrust",
     "damageDieSize": 8,
     "ammoGer": "Bolzen",
-    "slot": 3,
+    "slots": 3,
     "hand": 2,
-    "qualität": 3
+    "quality": 3
   }
 ]
