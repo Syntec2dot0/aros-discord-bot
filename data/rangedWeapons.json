@@ -6,7 +6,7 @@
     "slots": 1,
     "hand": 1,
     "quality": 2,
-    "typ": "weapon"
+    "type": "weapon"
   },
   "bow": {
     "nameGer": "Bogen",
@@ -15,7 +15,7 @@
     "slots": 2,
     "hand": 2,
     "quality": 3,
-    "typ": "weapon"
+    "type": "weapon"
   },
   "crossbow": {
     "nameGer": "Armbrust",
@@ -24,6 +24,6 @@
     "slots": 3,
     "hand": 2,
     "quality": 3,
-    "typ": "weapon"
+    "type": "weapon"
   }
 }
