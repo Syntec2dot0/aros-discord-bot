@@ -1,5 +1,5 @@
 import { readFile } from 'fs/promises';
-import { randomInclusive } from '../util.js';
+import { randomInclusive } from './util.js';
 
 const gear1Table = JSON.parse(await readFile(new URL('../data/gear1.json', import.meta.url)));
 const gear2Table = JSON.parse(await readFile(new URL('../data/gear2.json', import.meta.url)));
