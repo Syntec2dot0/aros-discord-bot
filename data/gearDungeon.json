@@ -1,62 +1,82 @@
 {
   "rope": {
-    "nameGer": "Seil (15m)"
+    "nameGer": "Seil (15m)",
+    "type": "gear"
   },
   "pulleys": {
-    "nameGer": "Seilzug"
+    "nameGer": "Seilzug",
+    "type": "gear"
   },
   "chain": {
-    "nameGer": "Kette (3m)"
+    "nameGer": "Kette (3m)",
+    "type": "gear"
   },
   "chalk": {
-    "nameGer": "Kreide (x10)"
+    "nameGer": "Kreide (x10)",
+    "type": "gear"
   },
   "crowbar": {
-    "nameGer": "Brecheisen"
+    "nameGer": "Brecheisen",
+    "type": "gear"
   },
   "torch": {
-    "nameGer": "Fackel (x2)"
+    "nameGer": "Fackel (x2)",
+    "type": "gear"
   },
   "grapplingHook": {
-    "nameGer": "Greifharken"
+    "nameGer": "Greifharken",
+    "type": "gear"
   },
   "hammer": {
-    "nameGer": "Hammer"
+    "nameGer": "Hammer",
+    "type": "gear"
   },
   "padlock": {
-    "nameGer": "Vorhängeschloss"
+    "nameGer": "Vorhängeschloss",
+    "type": "gear"
   },
   "manacles": {
-    "nameGer": "Fußfesseln"
+    "nameGer": "Fußfesseln",
+    "type": "gear"
   },
   "mirror": {
-    "nameGer": "Spiegel"
+    "nameGer": "Spiegel",
+    "type": "gear"
   },
   "pole": {
-    "nameGer": "Holzstange (3m)"
+    "nameGer": "Holzstange (3m)",
+    "type": "gear"
   },
   "sack": {
-    "nameGer": "Sack"
+    "nameGer": "Sack",
+    "type": "gear"
   },
   "machete": {
-    "nameGer": "Machete"
+    "nameGer": "Machete",
+    "type": "gear"
   },
   "spikes": {
-    "nameGer": "Eisenstacheln (x5)"
+    "nameGer": "Eisenstacheln (x5)",
+    "type": "gear"
   },
   "randomScroll": {
-    "nameGer": "zufällige Spruchrolle"
+    "nameGer": "zufällige Spruchrolle",
+    "type": "gear"
   },
   "lanternAndBlubberOil": {
-    "nameGer": "Laterne und Öl"
+    "nameGer": "Laterne und Öl",
+    "type": "gear"
   },
   "glowingAlgaeGlobe": {
-    "nameGer": "fluoreszierende Algen"
+    "nameGer": "fluoreszierende Algen",
+    "type": "gear"
   },
   "randomSlug": {
-    "nameGer": "zufällige Schnecke"
+    "nameGer": "zufällige Schnecke",
+    "type": "gear"
   },
   "randomSpellpearl": {
-    "nameGer": "zufällige Spruchperle"
+    "nameGer": "zufällige Spruchperle",
+    "type": "gear"
   }
 }

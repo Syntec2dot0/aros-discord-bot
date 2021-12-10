@@ -1,62 +1,82 @@
 {
   "torch": {
-    "nameGer": "Fackel (x2)"
+    "nameGer": "Fackel (x2)",
+    "type": "gear"
   },
   "bearTrap": {
-    "nameGer": "Bärenfalle"
+    "nameGer": "Bärenfalle",
+    "type": "gear"
   },
   "shovel": {
-    "nameGer": "Schaufel"
+    "nameGer": "Schaufel",
+    "type": "gear"
   },
   "bellows": {
-    "nameGer": "Blasebalg"
+    "nameGer": "Blasebalg",
+    "type": "gear"
   },
   "grease": {
-    "nameGer": "Schmierfett"
+    "nameGer": "Schmierfett",
+    "type": "gear"
   },
   "saw": {
-    "nameGer": "Säge"
+    "nameGer": "Säge",
+    "type": "gear"
   },
   "bucket": {
-    "nameGer": "Eimer"
+    "nameGer": "Eimer",
+    "type": "gear"
   },
   "caltrops": {
-    "nameGer": "Caltrops"
+    "nameGer": "Caltrops",
+    "type": "gear"
   },
   "chisel": {
-    "nameGer": "Meißel"
+    "nameGer": "Meißel",
+    "type": "gear"
   },
   "drill": {
-    "nameGer": "Bohrer"
+    "nameGer": "Bohrer",
+    "type": "gear"
   },
   "fishingRod": {
-    "nameGer": "Angel"
+    "nameGer": "Angel",
+    "type": "gear"
   },
   "marbles": {
-    "nameGer": "Murmeln"
+    "nameGer": "Murmeln",
+    "type": "gear"
   },
   "glue": {
-    "nameGer": "Kleber"
+    "nameGer": "Kleber",
+    "type": "gear"
   },
   "pick": {
-    "nameGer": "Dietrich"
+    "nameGer": "Dietrich",
+    "type": "gear"
   },
   "hourglass": {
-    "nameGer": "Sanduhr"
+    "nameGer": "Sanduhr",
+    "type": "gear"
   },
   "net": {
-    "nameGer": "Netz"
+    "nameGer": "Netz",
+    "type": "gear"
   },
   "tongs": {
-    "nameGer": "Zange"
+    "nameGer": "Zange",
+    "type": "gear"
   },
   "lockpick": {
-    "nameGer": "Dietrich"
+    "nameGer": "Dietrich",
+    "type": "gear"
   },
   "metalFile": {
-    "nameGer": "Metalfeile"
+    "nameGer": "Metalfeile",
+    "type": "gear"
   },
   "randomMeleeWeapon": {
-    "nameGer": "zufällige Nahrkampfwaffe"
+    "nameGer": "zufällige Nahrkampfwaffe",
+    "type": "gear"
   }
 }

@@ -5,7 +5,8 @@
     "ammoGer": "/",
     "slots": 1,
     "hand": 1,
-    "quality": 2
+    "quality": 2,
+    "typ": "weapon"
   },
   "bow": {
     "nameGer": "Bogen",
@@ -13,7 +14,8 @@
     "ammoGer": "Pfeile",
     "slots": 2,
     "hand": 2,
-    "quality": 3
+    "quality": 3,
+    "typ": "weapon"
   },
   "crossbow": {
     "nameGer": "Armbrust",
@@ -21,6 +23,7 @@
     "ammoGer": "Bolzen",
     "slots": 3,
     "hand": 2,
-    "quality": 3
+    "quality": 3,
+    "typ": "weapon"
   }
 }
