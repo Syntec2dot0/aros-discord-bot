@@ -6,7 +6,7 @@
     "slots": 1,
     "hand": 1,
     "quality": 3,
-    "typ": "weapon"
+    "type": "weapon"
   },
   "cudgel": {
     "nameGer": "Keule",
@@ -15,7 +15,7 @@
     "slots": 1,
     "hand": 1,
     "quality": 3,
-    "typ": "weapon"
+    "type": "weapon"
   },
   "sickle": {
     "nameGer": "Sichel",
@@ -24,7 +24,7 @@
     "slots": 1,
     "hand": 1,
     "quality": 3,
-    "typ": "weapon"
+    "type": "weapon"
   },
   "mace": {
     "nameGer": "Streitkolben",
@@ -33,7 +33,7 @@
     "slots": 2,
     "hand": 1,
     "quality": 3,
-    "typ": "weapon"
+    "type": "weapon"
   },
   "spear": {
     "nameGer": "Speer",
@@ -42,7 +42,7 @@
     "slots": 2,
     "hand": 1,
     "quality": 3,
-    "typ": "weapon"
+    "type": "weapon"
   },
   "sword": {
     "nameGer": "Schwert",
@@ -51,7 +51,7 @@
     "slots": 2,
     "hand": 1,
     "quality": 3,
-    "typ": "weapon"
+    "type": "weapon"
   },
   "eku": {
     "nameGer": "Eku",
@@ -63,7 +63,7 @@
     "slots": 3,
     "hand": 2,
     "quality": 3,
-    "typ": "weapon"
+    "type": "weapon"
   },
   "hammer": {
     "nameGer": "Hammer",
@@ -72,7 +72,7 @@
     "slots": 3,
     "hand": 2,
     "quality": 3,
-    "typ": "weapon"
+    "type": "weapon"
   },
   "harpoon": {
     "nameGer": "Harpune",
@@ -81,7 +81,7 @@
     "slots": 3,
     "hand": 2,
     "quality": 3,
-    "typ": "weapon"
+    "type": "weapon"
   },
   "longsword": {
     "nameGer": "Langschwert",
@@ -90,6 +90,6 @@
     "slots": 2,
     "hand": 2,
     "quality": 3,
-    "typ": "weapon"
+    "type": "weapon"
   }
 }
