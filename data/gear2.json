@@ -1,62 +1,82 @@
 {
   "torch": {
-    "nameGer": "Fackel (x2)"
+    "nameGer": "Fackel (x2)",
+    "type": "gear"
   },
   "sponge": {
-    "nameGer": "Schwamm"
+    "nameGer": "Schwamm",
+    "type": "gear"
   },
   "lens": {
-    "nameGer": "Linse"
+    "nameGer": "Linse",
+    "type": "gear"
   },
   "perfume": {
-    "nameGer": "Parfüm"
+    "nameGer": "Parfüm",
+    "type": "gear"
   },
   "horn": {
-    "nameGer": "Horn"
+    "nameGer": "Horn",
+    "type": "gear"
   },
   "bottle": {
-    "nameGer": "Flasche"
+    "nameGer": "Flasche",
+    "type": "gear"
   },
   "soap": {
-    "nameGer": "Seife"
+    "nameGer": "Seife",
+    "type": "gear"
   },
   "spyglass": {
-    "nameGer": "Fernglas"
+    "nameGer": "Fernglas",
+    "type": "gear"
   },
   "tarPot": {
-    "nameGer": "Teertopf"
+    "nameGer": "Teertopf",
+    "type": "gear"
   },
   "twine": {
-    "nameGer": "Zwirn"
+    "nameGer": "Zwirn",
+    "type": "gear"
   },
   "fakeJewels": {
-    "nameGer": "Glassperlen"
+    "nameGer": "Glassperlen",
+    "type": "gear"
   },
   "cardDeck": {
-    "nameGer": "Kartendeck"
+    "nameGer": "Kartendeck",
+    "type": "gear"
   },
   "diceSet": {
-    "nameGer": "Würfelset"
+    "nameGer": "Würfelset",
+    "type": "gear"
   },
   "facePaint": {
-    "nameGer": "Gesichtsfarbe"
+    "nameGer": "Gesichtsfarbe",
+    "type": "gear"
   },
   "whistle": {
-    "nameGer": "Pfeife"
+    "nameGer": "Pfeife",
+    "type": "gear"
   },
   "instrument": {
-    "nameGer": "Instrument"
+    "nameGer": "Instrument",
+    "type": "gear"
   },
   "quillAndInk": {
-    "nameGer": "Feder und Tinte"
+    "nameGer": "Feder und Tinte",
+    "type": "gear"
   },
   "smallBell": {
-    "nameGer": "kleine Glocke"
+    "nameGer": "kleine Glocke",
+    "type": "gear"
   },
   "airbladder": {
-    "nameGer": "Schwimmblase"
+    "nameGer": "Schwimmblase",
+    "type": "gear"
   },
   "randomRangedWeapon": {
-    "nameGer": "zufällige Fernkampfwaffe"
+    "nameGer": "zufällige Fernkampfwaffe",
+    "type": "gear"
   }
 }

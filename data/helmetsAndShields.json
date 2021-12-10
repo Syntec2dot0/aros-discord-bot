@@ -1,24 +1,28 @@
 {
   "noneOrHat": {
     "nameGer": "kein Helm oder ein Hut",
-    "defenseBonus": 0
+    "defenseBonus": 0,
+    "typ": "noHelmetAndShield"
   },
   "helmet": {
     "nameGer": "Helm",
     "defenseBonus": 1,
     "slots": 1,
-    "quality": 1
+    "quality": 1,
+    "typ": "helmetAndShield"
   },
   "shield": {
     "nameGer": "Schild",
     "defenseBonus": 1,
     "slots": 1,
-    "quality": 1
+    "quality": 1,
+    "typ": "helmetAndShield"
   },
   "helmetAndShield": {
     "nameGer": "Helm und Schild",
     "defenseBonus": 2,
     "slots": 2,
-    "quality": 1
+    "quality": 1,
+    "typ": "helmetAndShield"
   }
 }
