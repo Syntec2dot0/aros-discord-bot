@@ -1,6 +1,7 @@
 import { SlashCommandBuilder } from '@discordjs/builders';
 import * as randomTables from '../services/randomTables.js';
 import { MessageEmbed } from 'discord.js'
+import { equipmentToString } from '../services/util.js'
 
 let command = {
 	data: new SlashCommandBuilder()
@@ -15,15 +16,12 @@ let command = {
 		const gear2 = randomTables.getRandomGear2();
 		const gearDungeon = randomTables.getRandomGearDungeon();
 
-		const replay = `\`${weapon.nameGer} (Schaden: 1D${weapon.damageDieSize}, Slots: ${weapon.slots}, Hände: ${weapon.hand})\`\n`
-			+ `\`${armor.nameGer} (Verteidigung: ${armor.defense}${armor.slots ? `, Slots: ${armor.slots}, Qualität: ${armor.quality}` : ``})\`\n`
-			+ `\`${helmetAndShield.nameGer} (Verteidigung: +${helmetAndShield.defenseBonus}${helmetAndShield.slots ? `, Slots: ${helmetAndShield.slots}, Qualität: ${helmetAndShield.quality}` : ``})\`\n`
-			+ `\`${gear1.nameGer}\`\n`
-			+ `\`${gear2.nameGer}\`\n`
-			+ `\`${gearDungeon.nameGer}\``
-		//+ "`" + randomTables.getRandomGear1().nameGer + "`\n"
-		//+ "`" + randomTables.getRandomGear2().nameGer + "`\n"
-		//+ "`" + randomTables.getRandomGearDungeon().nameGer + "`\n"
+		const replay = `\`${equipmentToString(weapon)}\`\n`
+			+ `\`${equipmentToString(armor)}\`\n`
+			+ `\`${equipmentToString(helmetAndShield)}\`\n`
+			+ `\`${equipmentToString(gear1)}\`\n`
+			+ `\`${equipmentToString(gear2)}\`\n`
+			+ `\`${equipmentToString(gearDungeon)}\`\n`
 
 		const exampleEmbed = new MessageEmbed()
 			.setColor('#5C8C79')
