@@ -1,5 +1,4 @@
 import { SlashCommandBuilder } from '@discordjs/builders';
-import { randomInclusive } from '../util.js';
 import * as randomTables from '../services/randomTables.js';
 
 let command = {

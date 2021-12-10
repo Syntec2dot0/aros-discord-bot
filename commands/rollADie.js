@@ -1,5 +1,5 @@
 import { SlashCommandBuilder } from '@discordjs/builders';
-import { randomInclusive } from '../util.js';
+import { randomInclusive } from '../services/util.js';
 
 /* 
 Builds a dice rolling command 
