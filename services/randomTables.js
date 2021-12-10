@@ -11,15 +11,15 @@ const helmetsAndShieldsTable = JSON.parse(await readFile(new URL('../data/helmet
 
 
 export function getRandomGear1() {
-  return gear1Table[randomInclusive(0, 19)];
+  return gear1Table[Object.keys(gear1Table)[randomInclusive(0, 19)]];
 }
 
 export function getRandomGear2() {
-  return gear2Table[randomInclusive(0, 19)];
+  return gear2Table[Object.keys(gear2Table)[randomInclusive(0, 19)]];
 }
 
 export function getRandomGearDungeon() {
-  return gearDungeonTable[randomInclusive(0, 19)];
+  return gearDungeonTable[Object.keys(gearDungeonTable)[randomInclusive(0, 19)]];
 }
 
 export function getRandomMeleeWeapon() {
@@ -29,31 +29,31 @@ export function getRandomMeleeWeapon() {
     case 3:
     case 4:
     case 5:
-      return meleeWeaponsTable[0];
+      return meleeWeaponsTable.dagger;
     case 6:
     case 7:
-      return meleeWeaponsTable[1];
+      return meleeWeaponsTable.cudgel;
     case 8:
-      return meleeWeaponsTable[2];
+      return meleeWeaponsTable.sickle;
     case 9:
     case 10:
-      return meleeWeaponsTable[3];
+      return meleeWeaponsTable.mace;
     case 11:
     case 12:
     case 13:
     case 14:
-      return meleeWeaponsTable[4];
+      return meleeWeaponsTable.spear;
     case 15:
-      return meleeWeaponsTable[5];
+      return meleeWeaponsTable.sword;
     case 16:
-      return meleeWeaponsTable[6];
+      return meleeWeaponsTable.eku;
     case 17:
-      return meleeWeaponsTable[7];
+      return meleeWeaponsTable.hammer;
     case 18:
     case 19:
-      return meleeWeaponsTable[8];
+      return meleeWeaponsTable.harpoon;
     case 20:
-      return meleeWeaponsTable[9];
+      return meleeWeaponsTable.longsword;
   }
 }
 
@@ -71,17 +71,17 @@ export function getRandomRangedWeapons() {
     case 10:
     case 11:
     case 12:
-      return rangedWeaponsTable[0];
+      return rangedWeaponsTable.sling;
     case 13:
     case 14:
     case 15:
     case 16:
     case 17:
     case 18:
-      return rangedWeaponsTable[1];
+      return rangedWeaponsTable.bow;
     case 19:
     case 20:
-      return rangedWeaponsTable[2];
+      return rangedWeaponsTable.crossbow;
   }
 }
 
@@ -90,7 +90,7 @@ export function getRandomArmor() {
     case 1:
     case 2:
     case 3:
-      return armorTable[0];
+      return armorTable.noArmor;
     case 4:
     case 5:
     case 6:
@@ -102,15 +102,15 @@ export function getRandomArmor() {
     case 12:
     case 13:
     case 14:
-      return armorTable[1];
+      return armorTable.canvasTunic;
     case 15:
     case 16:
     case 17:
     case 18:
     case 19:
-      return armorTable[2];
+      return armorTable.sealLeather;
     case 20:
-      return armorTable[3];
+      return armorTable.ironScaleMail;
   }
 }
 
@@ -129,16 +129,16 @@ export function getRandomHelmetAndShield() {
     case 11:
     case 12:
     case 13:
-      return helmetsAndShieldsTable[0];
+      return helmetsAndShieldsTable.noneOrHat;
     case 14:
     case 15:
     case 16:
-      return helmetsAndShieldsTable[1];
+      return helmetsAndShieldsTable.helmet;
     case 17:
     case 18:
     case 19:
-      return helmetsAndShieldsTable[2];
+      return helmetsAndShieldsTable.shield;
     case 20:
-      return helmetsAndShieldsTable[3];
+      return helmetsAndShieldsTable.helmetAndShield;
   }
 }
