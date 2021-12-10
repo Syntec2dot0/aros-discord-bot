@@ -10,6 +10,7 @@ import ping from './commands/ping.js';
 import rolladie from './commands/rolladie.js';
 import button from './commands/button.js';
 import rollAttributes from './commands/rollAttributes.js';
+import rollEquipment from './commands/rollEquipment.js';
 import makeCharacter from './commands/makeCharacter.js';
 
 dotenv.config();
@@ -25,6 +26,7 @@ commands.push(ping.data.toJSON());
 commands.push(rolladie.data.toJSON());
 commands.push(button.data.toJSON());
 commands.push(rollAttributes.data.toJSON());
+commands.push(rollEquipment.data.toJSON());
 commands.push(makeCharacter.data.toJSON());
 
 /* Create a new http request with your Bot Token as a header */
