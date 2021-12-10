@@ -1,5 +1,5 @@
 import { SlashCommandBuilder } from '@discordjs/builders';
-import { } from '../util.js';
+import { randomInclusive } from '../util.js';
 
 /* 
 Builds a dice rolling command 
@@ -35,7 +35,12 @@ let command = {
 			await interaction.deferReply();
 
 			/* Building a Response string with the specified number of die Results: */
-			let res = rolladiefunc(faces, num);
+			let res = randomInclusive(1, faces);
+
+			for (let i = 1; i < num; i++) {
+				res += " + " + randomInclusive(1, faces);
+			}
+
 			await interaction.editReply(`Rolling ${num} d${faces} : \n ${res}`);
 		} catch {
 			console.error(error);
