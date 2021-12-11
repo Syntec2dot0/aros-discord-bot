@@ -68,7 +68,7 @@ let command = {
 			+ "`" + attributes[5].value + "\tCHA\t" + (attributes[5].value + 10) + "`\n"
 
 		const exampleEmbed = new MessageEmbed()
-			.setColor('#5C8C79')
+			.setColor(interaction.member.displayHexColor)
 			.setTitle('Attribute')
 			.setDescription(replayMessage)
 

@@ -27,7 +27,7 @@ let command = {
 			+ `\`${equipmentToString(gearDungeon)}\`\n`
 
 		const exampleEmbed = new MessageEmbed()
-			.setColor('#5C8C79')
+			.setColor(interaction.member.displayHexColor)
 			.setTitle('Ausrüstung')
 			.setDescription(replay)
 
