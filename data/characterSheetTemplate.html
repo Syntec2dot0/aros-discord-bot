@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>AROS Character Sheet Template</title>
+</head>
+
+<body>
+  <div class="attributes">
+
+    <div class="header">Bonus Attribut Verteidigung</div>
+
+    <div class="coreAttributes">
+
+      <div class="attribute">
+        <div class="attribute valueRow">
+          <span class="attribute bonus">{{attributes.str.bonus}}</span>
+          <span class="attribute name">STR</span>
+          <span class="attribute defense">{{attributes.str.defense}}</span>
+        </div>
+        <div class="attributeDiscription">physische Stärke, <i>Nahkampf</i></div>
+      </div>
+
+      <div class="attribute">
+        <div class="attribute valueRow">
+          <span class="attribute bonus">{{attributes.dex.bonus}}</span>
+          <span class="attribute name">DEX</span>
+          <span class="attribute defense">{{attributes.dex.defense}}</span>
+        </div>
+        <div class="attributeDiscription">Geschicklichkeit, Geschwindigkeit, Klettern</div>
+      </div>
+
+      <div class="attribute">
+        <div class="attribute valueRow">
+          <span class="attribute bonus">{{attributes.con.bonus}}</span>
+          <span class="attribute name">CON</span>
+          <span class="attribute defense">{{attributes.con.defense}}</span>
+        </div>
+        <div class="attributeDiscription">Durchhaltevermögen, <i>ItemSlots, Bonus zum Heilen</i></div>
+      </div>
+
+      <div class="attribute">
+        <div class="attribute valueRow">
+          <span class="attribute bonus">{{attributes.int.bonus}}</span>
+          <span class="attribute name">INT</span>
+          <span class="attribute defense">{{attributes.int.defense}}</span>
+        </div>
+        <div class="attributeDiscription">Konzentrieren, Handwerk, Erinnern</div>
+      </div>
+
+      <div class="attribute">
+        <div class="attribute valueRow">
+          <span class="attribute bonus">{{attributes.wis.bonus}}</span>
+          <span class="attribute name">WIS</span>
+          <span class="attribute defense">{{attributes.wis.defense}}</span>
+        </div>
+        <div class="attributeDiscription">Wahrnehmung, Navigieren, Suchen, <i>Fernkampf</i></div>
+      </div>
+
+      <div class="attribute">
+        <div class="attribute valueRow">
+          <span class="attribute bonus">{{attributes.cha.bonus}}</span>
+          <span class="attribute name">CHA</span>
+          <span class="attribute defense">{{attributes.cha.defense}}</span>
+        </div>
+        <div class="attributeDiscription">Überzeugen, Einschüchtern, Lügen</div>
+      </div>
+    </div>
+
+    <div class="armorClassOrHp">
+      <div class="armorClassOrHp header">Bonus Verteidigung</div>
+      <div class="armorClassOrHp valueRow">
+        <span class="armorClassOrHp bonus">{{attributes.defense.bonus}}</span>
+        <span class="armorClassOrHp name">RÜSTUNG</span>
+        <span class="armorClassOrHp defense">{{attributes.defense.defense}}</span>
+      </div>
+    </div>
+
+    <div class="armorClassOrHp">
+      <div class="armorClassOrHp header">Maximal Momentan</div>
+      <div class="armorClassOrHp valueRow">
+        <span class="armorClassOrHp bonus">{{attributes.hp}}</span>
+        <span class="armorClassOrHp name">HP</span>
+        <span class="armorClassOrHp defense">{{attributes.hp}}</span>
+      </div>
+    </div>
+
+    <div class="moral">
+      <span class="moral name">MORAl</span>
+      <span class="moral value">{{attributes.moral}}</span>
+    </div>
+
+  </div>
+
+
+  <div class="itemSlots">
+    <table>
+      <tr>
+        <td colspan="2">ItemSlots</td>
+      </tr>
+      <tr>
+        <td>{{itemSlot.slot0}}</td>
+        <td>{{itemSlot.slot1}}</td>
+      </tr>
+      <tr>
+        <td>{{itemSlot.slot0}}</td>
+        <td>{{itemSlot.slot1}}</td>
+      </tr>
+      <tr>
+        <td>{{itemSlot.slot0}}</td>
+        <td>{{itemSlot.slot1}}</td>
+      </tr>
+      <tr>
+        <td>{{itemSlot.slot0}}</td>
+        <td>{{itemSlot.slot1}}</td>
+      </tr>
+      <tr>
+        <td>{{itemSlot.slot0}}</td>
+        <td>{{itemSlot.slot1}}</td>
+      </tr>
+      <tr>
+        <td>{{itemSlot.slot0}}</td>
+        <td>{{itemSlot.slot1}}</td>
+      </tr>
+      <tr>
+        <td>{{itemSlot.slot0}}</td>
+        <td>{{itemSlot.slot1}}</td>
+      </tr>
+      <tr>
+        <td>{{itemSlot.slot0}}</td>
+        <td>{{itemSlot.slot1}}</td>
+      </tr>
+      <tr>
+        <td>{{itemSlot.slot0}}</td>
+        <td>{{itemSlot.slot1}}</td>
+      </tr>
+      <tr>
+        <td>{{itemSlot.slot0}}</td>
+        <td>{{itemSlot.slot1}}</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="details">Name</div>
+</body>
+
+</html>
+
+<style>
+  * {
+    -webkit-print-color-adjust: exact;
+  }
+
+  body {
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+  }
+
+  .attributes {
+    width: 30%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    border: 3px;
+    border-style: solid;
+  }
+
+  .coreAttributes {
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .attribute.valueRow {
+    font-size: 50px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .itemSlots {
+    width: 40%;
+    border: 3px;
+    border-style: solid;
+  }
+
+  .details {
+    width: 30%;
+    border: 3px;
+    border-style: solid;
+  }
+</style>
